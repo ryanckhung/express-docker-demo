@@ -1,6 +1,9 @@
+# version must be specify
+# otherwise the lastest node version will be installed
+# this may not be support for your which use older version
 FROM node:12
 
-# Create app directory
+# Sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions
 WORKDIR /usr/src/app
 
 # Install app dependencies

@@ -8,9 +8,9 @@ To run the demo
 
 ### `docker build -t ryanckhung/express .`
 
-3. run the docker image
+3. run the docker image (-p external:internal)
 
-### `docker run --name express_server -d -p 8081:80 ryanckhung/express`
+### `docker run --name express_server -d -p 8081:8080 ryanckhung/express`
 
 4. goto the browser and run the container
 
@@ -29,3 +29,5 @@ To run the demo
 ### `docker stop web_server`
 
 ### `docker rm web_server`
+
+8. in the linux machine, run the "node-setup.sh" shell script
