@@ -12,9 +12,11 @@ To run the demo
 
 ### `docker run --name express_server -d -p 8081:8080 ryanckhung/express`
 
-4. goto the browser and run the container
+4. goto the browser / termainal and run the container
 
 ### `http://localhost:8081`
+
+### `curl localhost:8081`
 
 5. checking the running container
 
