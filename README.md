@@ -33,3 +33,8 @@ To run the demo
 ### `docker rm web_server`
 
 8. in the linux machine, run the "node-setup.sh" shell script
+
+9. after you build the image, you can import and export the docker image
+
+### `docker save <my_local_image> > xxx.tar`
+### `docker load --input xxx.tar`
