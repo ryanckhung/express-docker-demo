@@ -38,3 +38,6 @@ To run the demo
 
 ### `docker save <my_local_image> > xxx.tar`
 ### `docker load --input xxx.tar`
+
+
+### `docker info`
