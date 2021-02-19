@@ -39,5 +39,9 @@ To run the demo
 ### `docker save <my_local_image> > xxx.tar`
 ### `docker load --input xxx.tar`
 
-
+10. show the docker status
 ### `docker info`
+
+11. The exec command will allow us to run a command in a running container.  
+the following command run the "touch /tmp/test" command inside the running container
+### `docker exec -d flask-tutorial touch /tmp/test`
