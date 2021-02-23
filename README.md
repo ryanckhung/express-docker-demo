@@ -45,3 +45,10 @@ To run the demo
 11. The exec command will allow us to run a command in a running container.  
 the following command run the "touch /tmp/test" command inside the running container
 ### `docker exec -d flask-tutorial touch /tmp/test`
+
+12. running command in the executing container
+docker exec -it <container name> <command to run>
+docker exec -it price-api touch /contains_your_price_data/from_price_api.txt
+docker exec -it price-api ls /contains_your_price_data
+
+ 
