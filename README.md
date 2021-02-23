@@ -47,8 +47,8 @@ the following command run the "touch /tmp/test" command inside the running conta
 ### `docker exec -d flask-tutorial touch /tmp/test`
 
 12. running command in the executing container
-docker exec -it <container name> <command to run>
-docker exec -it price-api touch /contains_your_price_data/from_price_api.txt
-docker exec -it price-api ls /contains_your_price_data
+### `docker exec -it <container name> <command to run>`
+### `docker exec -it price-api touch /contains_your_price_data/from_price_api.txt`
+### `docker exec -it price-api ls /contains_your_price_data`
 
  
